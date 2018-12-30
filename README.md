@@ -75,31 +75,31 @@ in collaboration with Kyall Zenger at James Cook University.
 
 
 * **RAxML-NG** 
-   * download: [https://anaconda.org/bioconda/gotree](https://anaconda.org/genomedk/raxml-ng)
-   * cite: [https://doi.org/10.1101/447110](https://doi.org/10.1101/447110)
+   * download: [https://anaconda.org/bioconda/gotree/](https://anaconda.org/genomedk/raxml-ng)
+   * cite: [https://doi.org/10.1101/447110/](https://doi.org/10.1101/447110)
 * **PhyML** 
-   * download: [https://anaconda.org/bioconda/phyml](https://anaconda.org/bioconda/phyml)
-   * cite: [https://www.ncbi.nlm.nih.gov/pubmed/20525638](https://www.ncbi.nlm.nih.gov/pubmed/20525638)
+   * download: [https://anaconda.org/bioconda/phyml/](https://anaconda.org/bioconda/phyml)
+   * cite: [https://www.ncbi.nlm.nih.gov/pubmed/20525638/](https://www.ncbi.nlm.nih.gov/pubmed/20525638)
 * **FastTree** 
-   * download: [https://anaconda.org/bioconda/fasttree](https://anaconda.org/bioconda/fasttree)
+   * download: [https://anaconda.org/bioconda/fasttree/](https://anaconda.org/bioconda/fasttree)
    * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835736/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835736/)
 * **Goalign** 
-   * download: [https://anaconda.org/bioconda/goalign](https://anaconda.org/bioconda/goalign)
-   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
+   * download: [https://anaconda.org/bioconda/goalign/](https://anaconda.org/bioconda/goalign)
+   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
 * **Gotree**
-   * download: [https://anaconda.org/bioconda/gotree](https://anaconda.org/bioconda/gotree)
-   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
+   * download: [https://anaconda.org/bioconda/gotree/](https://anaconda.org/bioconda/gotree)
+   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
 * **BioPython** 
    * download: [https://pypi.org/project/biopython/](https://pypi.org/project/biopython/)
    * cite: [https://www.ncbi.nlm.nih.gov/pubmed/19304878](https://www.ncbi.nlm.nih.gov/pubmed/19304878)
 * **Click**
    * download: [https://pypi.org/project/click/](https://pypi.org/project/click/)
-   * link: [https://palletsprojects.com/p/click/](https://palletsprojects.com/p/click/)
+   * link: [https://palletsprojects.com/p/click](https://palletsprojects.com/p/click/)
 * **BioConda**:
    * channel: [https://bioconda.github.io/](https://bioconda.github.io/)
    * cite: [https://www.nature.com/articles/s41592-018-0046-7](https://www.nature.com/articles/s41592-018-0046-7)
 * **Nextflow**
-   * download [https://anaconda.org/bioconda/nextflow](https://anaconda.org/bioconda/nextflow)
+   * download [https://anaconda.org/bioconda/nextflow/](https://anaconda.org/bioconda/nextflow)
    * cite: [https://www.ncbi.nlm.nih.gov/pubmed/28398311](https://www.ncbi.nlm.nih.gov/pubmed/28398311)
 
 
