@@ -84,21 +84,21 @@ in collaboration with Kyall Zenger at James Cook University.
    * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835736/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835736/)
 * **Goalign** 
    * download: [https://anaconda.org/bioconda/goalign/](https://anaconda.org/bioconda/goalign)
-   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
+   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
 * **Gotree**
    * download: [https://anaconda.org/bioconda/gotree/](https://anaconda.org/bioconda/gotree)
-   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
+   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
 * **BioPython** 
    * download: [https://pypi.org/project/biopython/](https://pypi.org/project/biopython/)
-   * cite: [https://www.ncbi.nlm.nih.gov/pubmed/19304878](https://www.ncbi.nlm.nih.gov/pubmed/19304878)
+   * cite: [https://www.ncbi.nlm.nih.gov/pubmed/19304878/](https://www.ncbi.nlm.nih.gov/pubmed/19304878)
 * **Click**
    * download: [https://pypi.org/project/click/](https://pypi.org/project/click/)
-   * link: [https://palletsprojects.com/p/click](https://palletsprojects.com/p/click/)
+   * link: [https://palletsprojects.com/p/click/](https://palletsprojects.com/p/click/)
 * **BioConda**:
    * channel: [https://bioconda.github.io/](https://bioconda.github.io/)
-   * cite: [https://www.nature.com/articles/s41592-018-0046-7](https://www.nature.com/articles/s41592-018-0046-7)
+   * cite: [https://www.nature.com/articles/s41592-018-0046-7/](https://www.nature.com/articles/s41592-018-0046-7)
 * **Nextflow**
    * download [https://anaconda.org/bioconda/nextflow/](https://anaconda.org/bioconda/nextflow)
-   * cite: [https://www.ncbi.nlm.nih.gov/pubmed/28398311](https://www.ncbi.nlm.nih.gov/pubmed/28398311)
+   * cite: [https://www.ncbi.nlm.nih.gov/pubmed/28398311/](https://www.ncbi.nlm.nih.gov/pubmed/28398311)
 
 
