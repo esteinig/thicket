@@ -45,7 +45,7 @@ nextflow pull esteinig/thicket
 nextflow run thicket -profile <local/pbs/sge/slurm> --alignment <align.fasta>
 ```
 
-5. See the overview of the run under default `thicket/thicket.html`, bootstrapped 
+5. See the overview of the run by default in `thicket/`, bootstrapped 
 tree in `thicket/thicket.tree` and bootstrap trees in `thicket/bootstraps.tree`
 
 Modifications to the default pipeline are easily made using various options
