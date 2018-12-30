@@ -76,7 +76,7 @@ University of Sydney.
 
 
 * **RAxML-NG** 
-   * download: [https://anaconda.org/genomedk/raxml-ng](https://anaconda.org/genomedk/raxml-ng)
+   * download: [https://anaconda.org/genomedk/raxml-ng/](https://anaconda.org/genomedk/raxml-ng)
    * cite: [https://doi.org/10.1101/447110/](https://doi.org/10.1101/447110)
 * **PhyML** 
    * download: [https://anaconda.org/bioconda/phyml/](https://anaconda.org/bioconda/phyml)
