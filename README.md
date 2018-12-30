@@ -13,7 +13,7 @@ Thicket is a Nextflow wrapper around popular ML phylogeny framework `RAxML-NG`, 
 
 The pipeline computes bootstrap replicates of an alignment using `golign` and can launch each replicate in a separate submission to job executors supported by Nextflow, such as `PBS/Torque` or `SGE`. If the input is a variant file in binary PLINK format for diploid genomes, a concatenated alignment can be generated, with options to exclude invariant sites or translate heterozygous sites into ambiguous IUPAC DNA codes before concatenation. Bootstraps are sumamrized using methods from any of the three tree constructors. Option strings for the main phylogeny and bootstrap replicate processes expose all arguments of the command line interfaces from the ML software used in Thicket.
 
-Thicket was built to facilitate large parallel computation of bootstrap values (> 100 cores) for high density genome array data from diploid organisms (dingos, in this case), but can be used for any other data, where computation of a large number of bootstrap replicate trees is computationally infeasible on systems with fewer cores or where tree estimation is time consuming.
+Thicket was built to facilitate large parallel computation of bootstrap values (> 100 cores) for high density genome array data from diploid organisms (canine genome, in this case), but can be used for any other data, where computation of a large number of bootstrap replicate trees is computationally infeasible on systems with fewer cores or where tree estimation is time consuming.
 
 ## Pipeline steps
 
