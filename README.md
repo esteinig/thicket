@@ -8,7 +8,7 @@ Parallel bootstrapping for maximum-likelihood phylogenies using Nextflow
 
 ## Introduction
 
-Thicket is a Nextflow wrapper around popular ML phylogeny framework `RAxML-NG`, `PhyML 3` and `FastTree 2`. It paralellizes bootstrap computation (`Felsenstein`, `Transfer Bootstrap Expectation`, `Shimodaira-Hasegawa like local support values`) on any distributed systems available through Nextflow using `conda` environments, cloud support for `AWS` and `Google Cloud` and containerization with `Singularity`.
+Thicket is a Nextflow wrapper around popular ML phylogeny framework `RAxML-NG`, `PhyML 3` and `FastTree 2`. It paralellizes bootstrap computation (`Felsenstein`, `Transfer Bootstrap Expectation`, `Shimodaira-Hasegawa like local support values`) on any distributed system available through Nextflow using `conda` environments, cloud support for `AWS Batch` and soon `Google Cloud`, as well as containerization with `Singularity`.
 
 The pipeline computes bootstrap replicates of an alignment using `golign` and can launch each replicate in a separate submission to job executors supported by Nextflow, such as `PBS/Torque` or `SGE`. If the input is a variant file in binary PLINK format for diploid genomes, a concatenated alignment can be generated, with options to exclude invariant sites or translate heterozygous sites into ambiguous IUPAC DNA codes before concatenation. Bootstraps are sumamrized using methods from any of the three tree constructors. Option strings for the main phylogeny and bootstrap replicate processes expose all arguments of the command line interfaces from the ML software used in Thicket.
 
@@ -16,7 +16,7 @@ Thicket was built to facilitate large parallel computation of bootstrap values (
 
 ## Pipeline steps
 
-By default, alignment input to pipeline currently performs the following:
+By default alignment input, the pipeline currently performs the following:
 
 * Generates bootstrap replicates of the alignment (`Goalign`)
 * Launches each bootstrap computation in the ML software (`RAxML-NG`, `PhyML 3` or `FastTree 2`)
@@ -32,7 +32,7 @@ If the input is a diploid genome and a variant file in binary PLINK format (`Pli
 
 1. Install [`nextflow`](docs/installation.md)
 2. Install [`conda`](https://conda.io/miniconda.html)
-3. Download the pipeline pipeline
+3. Download the pipeline
 
 ```bash
 nextflow pull esteinig/thicket
@@ -45,7 +45,8 @@ nextflow pull esteinig/thicket
 nextflow run thicket -profile <local/pbs/sge/slurm> --alignment <align.fasta>
 ```
 
-5. See the overview of the run under default `thicket/thicket.trees`
+5. See the overview of the run under default `thicket/thicket.html`, bootstrapped 
+tree in `thicket/thicket.tree` and bootstrap trees in `thicket/bootstraps.tree`
 
 Modifications to the default pipeline are easily made using various options
 as described in the documentation.
