@@ -63,7 +63,7 @@ Thicket comes with documentation about the pipeline, found in the `docs/` direct
 4. [Output and how to interpret the results](docs/output.md)
 5. [Troubleshooting](docs/troubleshooting.md)
 
-This template will be used for `nf-core` release of Thicket.
+This template will be used for `nf-core` release of Thicket. Uses Python libraries Click and BioCOnda
 
 ## Credits
 
@@ -74,11 +74,29 @@ in collaboration with Kyall Zenger at James Cook University.
 ## References
 
 
-* **RAxML-NG** download: [https://github.com/amkozlov/raxml-ng/](https://github.com/amkozlov/raxml-ng/)
+* **RAxML-NG** 
+   * download: [https://anaconda.org/bioconda/gotree](https://anaconda.org/genomedk/raxml-ng)
+   * cite: [https://doi.org/10.1101/447110](https://doi.org/10.1101/447110)
 * **PhyML** 
-* **FastTree**
-* **Goalign** download: [https://github.com/amkozlov/raxml-ng/](https://github.com/amkozlov/raxml-ng/)
-* **Gotree** download: [https://github.com/amkozlov/raxml-ng/](https://github.com/amkozlov/raxml-ng/)
+   * download: [https://anaconda.org/bioconda/phyml](https://anaconda.org/bioconda/phyml)
+   * cite: [https://www.ncbi.nlm.nih.gov/pubmed/20525638](https://www.ncbi.nlm.nih.gov/pubmed/20525638)
+* **FastTree** 
+   * download: [https://anaconda.org/bioconda/fasttree](https://anaconda.org/bioconda/fasttree)
+   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835736/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835736/)
+* **Goalign** 
+   * download: [https://anaconda.org/bioconda/goalign](https://anaconda.org/bioconda/goalign)
+   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
+* **Gotree**
+   * download: [https://anaconda.org/bioconda/gotree](https://anaconda.org/bioconda/gotree)
+   * cite: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030568/)
+* **BioPython** 
+   * download: [https://pypi.org/project/biopython/](https://pypi.org/project/biopython/)
+   * cite: [https://www.ncbi.nlm.nih.gov/pubmed/19304878](https://www.ncbi.nlm.nih.gov/pubmed/19304878)
+* **Click**
+   * download: [https://pypi.org/project/click/](https://pypi.org/project/click/)
+   * link: [https://palletsprojects.com/p/click/](https://palletsprojects.com/p/click/)
 * **Nextflow**
+   * download [https://anaconda.org/bioconda/nextflow](https://anaconda.org/bioconda/nextflow)
+   * cite: [https://www.ncbi.nlm.nih.gov/pubmed/28398311](https://www.ncbi.nlm.nih.gov/pubmed/28398311)
 
 
