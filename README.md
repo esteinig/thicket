@@ -8,7 +8,7 @@ Parallel bootstrapping for Maximum-Likelihood (ML) phylogenies using Nextflow
 
 ## Introduction
 
-**Thicket** is a Nextflow wrapper around popular the ML phylogeny frameworks `RAxML-NG`, `PhyML` and `FastTree`. It parallelizes bootstrap computation (`Felsenstein`, `Transfer Bootstrap Expectation`, `Shimodaira-Hasegawa like local support values`) on any distributed system available through Nextflow using `conda` environments, cloud support for `AWS Batch` and soon `Google Cloud`, as well as containerization with `Singularity`.
+**Thicket** is a Nextflow wrapper around the popular ML phylogeny frameworks `RAxML-NG`, `PhyML` and `FastTree`. It parallelizes bootstrap computation (`Felsenstein`, `Transfer Bootstrap Expectation`, `Shimodaira-Hasegawa like local support values`) on any distributed system available through Nextflow using `conda` environments, cloud support for `AWS Batch` and soon `Google Cloud`, as well as containerization with `Singularity`.
 
 The pipeline computes bootstrap replicates of an alignment using `golign` and can launch each replicate in a separate submission to job executors supported by Nextflow, such as the `local` system, `PBS/Torque` or `SGE`. If the input is a variant file in binary `Plink` format for diploid genomes, a concatenated alignment can be generated, with options to exclude invariant sites or translate heterozygous sites into ambiguous IUPAC DNA codes. Bootstraps are summarized onto a main phylogeny using methods selected from the tree constructors. User-defined option strings for the main phylogeny and bootstrap replicates expose all arguments of the command line interfaces from the ML software used in **Thicket**.
 
