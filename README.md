@@ -66,15 +66,16 @@ This template will be used for `nf-core` release of Thicket. Uses Python librari
 
 ## Credits
 
-This pipeline was written by Eike Steinig ([esteinig](https://github.com/esteinig)), 
+This pipeline was written by Eike Steinig ([esteinig](https://github.com/esteinig))
 as part of an initiative to study dingo populations using high density genomic data
-in collaboration with Kyall Zenger at James Cook University.
+in collaboration with Kyall Zenger at James Cook University and Herman Raadsma at the
+University of Sydney.
 
 ## Dependencies
 
 
 * **RAxML-NG** 
-   * download: [https://anaconda.org/bioconda/gotree/](https://anaconda.org/genomedk/raxml-ng)
+   * download: [https://anaconda.org/genomedk/raxml-ng](https://anaconda.org/genomedk/raxml-ng)
    * cite: [https://doi.org/10.1101/447110/](https://doi.org/10.1101/447110)
 * **PhyML** 
    * download: [https://anaconda.org/bioconda/phyml/](https://anaconda.org/bioconda/phyml)
