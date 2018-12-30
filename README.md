@@ -63,7 +63,7 @@ Thicket comes with documentation about the pipeline, found in the `docs/` direct
 4. [Output and how to interpret the results](docs/output.md)
 5. [Troubleshooting](docs/troubleshooting.md)
 
-This template will be used for `nf-core` release of Thicket. Uses Python libraries Click and BioCOnda
+This template will be used for `nf-core` release of Thicket. Uses Python libraries Click and Bioython. Dependencies distributed through BioConda.
 
 ## Credits
 
@@ -71,7 +71,7 @@ This pipeline was written by Eike Steinig ([esteinig](https://github.com/esteini
 as part of an initiative to study dingo populations using high density genomic data
 in collaboration with Kyall Zenger at James Cook University.
 
-## References
+## Dependencies
 
 
 * **RAxML-NG** 
@@ -95,6 +95,9 @@ in collaboration with Kyall Zenger at James Cook University.
 * **Click**
    * download: [https://pypi.org/project/click/](https://pypi.org/project/click/)
    * link: [https://palletsprojects.com/p/click/](https://palletsprojects.com/p/click/)
+* **BioConda**:
+   * channel: [https://bioconda.github.io/](https://bioconda.github.io/)
+   * cite: [https://www.nature.com/articles/s41592-018-0046-7](https://www.nature.com/articles/s41592-018-0046-7)
 * **Nextflow**
    * download [https://anaconda.org/bioconda/nextflow](https://anaconda.org/bioconda/nextflow)
    * cite: [https://www.ncbi.nlm.nih.gov/pubmed/28398311](https://www.ncbi.nlm.nih.gov/pubmed/28398311)
