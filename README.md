@@ -53,7 +53,7 @@ as described in the documentation.
 
 ## Documentation
 
-The nf-core/eager pipeline comes with documentation about the pipeline, found in the `docs/` directory:
+Thicket comes with documentation about the pipeline, found in the `docs/` directory:
 
 1. [Installation](docs/installation.md)
 2. Pipeline configuration
@@ -62,6 +62,8 @@ The nf-core/eager pipeline comes with documentation about the pipeline, found in
 3. [Running the pipeline](docs/usage.md)
 4. [Output and how to interpret the results](docs/output.md)
 5. [Troubleshooting](docs/troubleshooting.md)
+
+This template will be used for `nf-core` release of Thicket.
 
 ## Credits
 
