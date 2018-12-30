@@ -65,13 +65,6 @@ Thicket comes with documentation about the pipeline, found in the `docs/` direct
 
 This template will be used for `nf-core` release of Thicket. Uses Python libraries Click and Bioython. Dependencies distributed through BioConda.
 
-## Credits
-
-This pipeline was written by Eike Steinig ([esteinig](https://github.com/esteinig))
-as part of an initiative to study dingo populations using high density genomic data
-in collaboration with Kyall Zenger at James Cook University and Herman Raadsma at the
-University of Sydney.
-
 ## Dependencies
 
 
@@ -102,5 +95,12 @@ University of Sydney.
 * **Nextflow**
    * download [https://anaconda.org/bioconda/nextflow/](https://anaconda.org/bioconda/nextflow)
    * cite: [https://www.ncbi.nlm.nih.gov/pubmed/28398311/](https://www.ncbi.nlm.nih.gov/pubmed/28398311)
+
+## Credits
+
+This pipeline was written by Eike Steinig ([esteinig](https://github.com/esteinig))
+as part of an initiative to study dingo populations using high density genomic data
+in collaboration with Kyall Zenger at James Cook University and Herman Raadsma at the
+University of Sydney.
 
 
