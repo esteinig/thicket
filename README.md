@@ -1,4 +1,4 @@
-## Thicket
+# Thicket
 
 
 Parallel bootstrapping for Maximum-Likelihood (ML) phylogenies using Nextflow
