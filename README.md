@@ -30,22 +30,21 @@ If the input is a diploid genome and a variant file in binary PLINK format (`Pli
 
 ## Quick Start
 
-1. Install [`nextflow`](docs/installation.md)
-2. Install [`conda`](https://conda.io/miniconda.html)
-3. Download the pipeline
+1. Install [`nextflow`](docs/installation.md) and [`conda`](https://conda.io/miniconda.html)
+2. Download the pipeline
 
 ```bash
 nextflow pull esteinig/thicket
 ```
 
-4. Set up your job with default parameters using `RAxML-NG`, model `GTRG+G` and default 100 bootstraps
+3. Set up your job with default parameters using `RAxML-NG`, model `GTRG+G` and default 100 bootstraps
 
 
 ```bash
 nextflow run thicket -profile <local/pbs/sge/slurm> --alignment <align.fasta>
 ```
 
-5. See the overview of the run by default in `thicket/`, bootstrapped 
+4. See the overview of the run by default in `thicket/`, bootstrapped 
 tree in `thicket/thicket.tree` and bootstrap trees in `thicket/bootstraps.tree`
 
 Modifications to the default pipeline are easily made using various options
