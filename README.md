@@ -12,7 +12,7 @@ Parallel bootstrapping for Maximum-Likelihood (ML) phylogenies using Nextflow
 
 The pipeline computes bootstrap replicates of an alignment using `golign` and can launch each replicate in a separate submission to job executors supported by Nextflow, such as the `local` system, `PBS/Torque` or `SGE`. If the input is a variant file in binary `Plink` format for diploid genomes, a concatenated alignment can be generated, with options to exclude invariant sites or translate heterozygous sites into ambiguous IUPAC DNA codes. Bootstraps are summarized onto a main phylogeny using methods selected from the tree constructors. User-defined option strings for the main phylogeny and bootstrap replicates expose all arguments of the command line interfaces from the ML software used in **Thicket**.
 
-**Thicket** was built to facilitate large parallel computation of bootstrap values (> 100 cores) for high density genome array data from diploid organisms (canine genome, in this case), but can be used for any other data, where computation of a large number of bootstrap replicate trees is computationally infeasible on systems with fewer cores or where tree estimation is time consuming.
+**Thicket** was built to facilitate large parallel computation of bootstrap values (> 100 cores) for high density genome array data from diploid organisms (canine genome, in this case) but can be used for any other data where computation of a large number of bootstrap replicate trees is computationally infeasible on systems with fewer cores or where tree estimation is time consuming.
 
 ## Pipeline steps
 
