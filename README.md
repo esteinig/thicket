@@ -3,7 +3,6 @@
 
 Parallel bootstrapping for maximum-likelihood phylogenies using Nextflow
 
-[![Build Status](https://travis-ci.org/nf-core/eager.svg?branch=master)](https://travis-ci.org/nf-core/eager)
 [![Nextflow](https://img.shields.io/badge/nextflow-%E2%89%A50.32.0-brightgreen.svg)](https://www.nextflow.io/)
 ![Singularity Container available](https://img.shields.io/badge/singularity-available-7E4C74.svg)
 
